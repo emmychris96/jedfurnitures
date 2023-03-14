@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+  <section class="sub-header"> 
+<nav>
+    <a href="school.html"> </a>
+    <div class="nav-links" id="navLinks"> 
+        <ion-icon name="arrow-back-circle" onclick="hideMenu()"></ion-icon>
+        <ul>
+            <li><a href="school.html">HOME</a></li>
+            <li><a href="About2.html">ABOUT</a></li>
+            <li><a href="service.html">SERVICE</a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+
+    </div>
+    <ion-icon name="list-outline" onclick="showMenu()"></ion-icon>
+</nav>
+<h1>Our Services</h1>
+
+  </section>
+  <!------service--->
+  <section class="course">
+    <h1>Services we offer</h1>
+    <p>The right choice to be a step ahead of the rest </p>
+    
+    <div class="row">
+         <div class="course-col">
+    <h3>Minimalist Furnitures</h3>
+    <p>Study Writing Table, 8-Drawer Double Dresser , Storage Ottoman,  Geometric Bookcase S-Shaped, Convertible Sectional Sofa.</p>
+        </div>
+        <div class="course-col">
+            <h3>Turkish Brands</h3>
+            <p>Lazzoni Furnitures, Zebrano , Voga Furnitures,  Kervan Mobilya.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Dining Sets</h3>
+                    <p>
+                         5 Piece Standard Height Dining Set, Dining chairs, Dining Table, Bar and Counter Stools<br></p>
+                        </div>
+    </div>
+    </section>
+    <!------what we offer--->
+    <section class="facilities">
+    <h1>Our Services</h1>
+    <p>The facilitie will give you  opportunity to select quality and luxury decor to make your home a  comfortable and beautify environment.</p>
+    <div class="row">
+
+<div class="facility-col">
+    <img src="school-design/image 5.png" >
+    <h3>Minimalistic Decor</h3>
+    <p>Our varieties of luxury minimalistic interior designs.</p>
+
+</div>
+<div class="facility-col">
+    <img src="school-design/neutral-home-decor.jpg" >
+    <h3>Largest Collection of Quality Furnitures</h3>
+    <p>Our collection of fine furniture sets to make your home look luxurious.</p>
+</div>
+<div class="facility-col">
+    <img src="school-design/luxury-formal-dining-room-furniture.jpg" >
+    <h3>Luxury Dining </h3>
+    <p> Our elegant and luxurious dining sets making your home look exquisit.</p>
+</div>
+
+<div class="facility-col">
+    <img src="school-design/lights.jpg" >
+    <h3>Luxury Lighting </h3>
+    <p> Our selection of luxurious lights sets to make your home look elegant.</p>
+
+</div>
+    </div>
+
+</section>
+
+
+ 
+
+
+
+    <!--------JavaScrpt for Toggle Menu------->
+<script>
+    var navLinks= document.getElementById("navLinks");
+function showMenu(){
+    navLinks.style.right="0"
+}
+function hideMenu(){
+    navLinks.style.right="-200px";
+}
+</script>
+
+</body>
+</html>
